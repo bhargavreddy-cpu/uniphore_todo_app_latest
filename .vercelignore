@@ -1,0 +1,15 @@
+.git
+.gitignore
+README.md
+.env.local
+.env.*.local
+*.log
+.DS_Store
+node_modules
+.next
+.nuxt
+dist
+build
+coverage
+.vscode
+.idea
