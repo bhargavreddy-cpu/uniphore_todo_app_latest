@@ -38,7 +38,7 @@ export default function MainLayout({ children }: Props) {
         <header className="mb-8">
           <div className="flex items-center justify-between gap-4">
             <div>
-              <h1 className="text-3xl font-bold text-slate-900 dark:text-white"> Uniphore Project Todo App</h1>
+              <h1 className="text-3xl font-bold text-slate-900 dark:text-white"> Uniphore Project Task App</h1>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
                 Built AI Modules with your Intelligence and Creativity
               </p>

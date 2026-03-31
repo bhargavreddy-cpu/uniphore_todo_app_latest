@@ -1,12 +1,13 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { fileURLToPath, URL } from "url";
 
 export default defineConfig({
   plugins: [react()],
+  base: "https://github.com/bhargavreddy-cpu/uniphore_todo_app_latest",
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-})
+});
